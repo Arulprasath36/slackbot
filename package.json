@@ -1,13 +1,20 @@
 {
   "name": "demoBot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple testing Node server",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "Arul",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.x.x",
     "request": "2.56.x"
-  }
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+
 }
